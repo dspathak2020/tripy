@@ -1,0 +1,76 @@
+.container
+{
+	max-width: 1200px;
+	position: relative;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.container-fluid
+{
+	position: relative;
+	overflow: hidden;
+	visibility: hidden;
+	max-width: 1200px;
+	max-height: auto;
+	display: block;
+	margin: 0px auto;
+	padding: 0px auto;
+	clear: both;
+}
+
+
+
+.container: after
+{
+	content: " ";
+	display: block;
+	visibility: hidden;
+	height: 0px;
+	clear: both;
+}
+
+.container .row:after, .row:before
+{
+	content: "";
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	width: auto;
+	height: auto;
+}
+
+.container .row:after
+{
+	clear: both;
+}
+
+.container .wrap-col
+{
+	margin: 10px;
+}
+
+.container .adjust-1, .container .adjust-2, .container .adjust-3, .container .adjust-4{
+	display:inline-block;
+	float:left;
+}
+.container .adjust-1{width:33.33%;}
+.container .adjust-2{width:50%;}
+.container .adjust-3{width:25%;}
+.container .adjust-4{width:66.66%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
